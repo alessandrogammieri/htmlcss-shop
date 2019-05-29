@@ -34,7 +34,12 @@ body{
 }
 
 .heart {
+  display: none;
   position: absolute;
   bottom: 20px;
   right: 45%;
+}
+
+img:hover + .heart {
+    display: block;
 }
